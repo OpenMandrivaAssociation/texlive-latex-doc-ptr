@@ -5,7 +5,7 @@
 # catalog-license pd
 # catalog-version 2009-03-24
 Name:		texlive-latex-doc-ptr
-Version:	2009-03-24
+Version:	20090324
 Release:	1
 Summary:	A direction-finder for LaTeX documentation
 Group:		Publishing
