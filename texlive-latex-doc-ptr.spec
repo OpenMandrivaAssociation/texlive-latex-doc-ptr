@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-doc-ptr.doc
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 A two-page set of recommendations for users who need on-line
@@ -33,7 +31,6 @@ distribution.
 %doc %{_texmfdistdir}/doc/latex/latex-doc-ptr/latex-doc-ptr.pdf
 %doc %{_texmfdistdir}/doc/latex/latex-doc-ptr/latex-doc-ptr.sty
 %doc %{_texmfdistdir}/doc/latex/latex-doc-ptr/latex-doc-ptr.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -44,5 +41,3 @@ distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
