@@ -41,3 +41,18 @@ distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090324-2
++ Revision: 753179
+- Rebuild to reduce used resources
+
+* Sun Nov 06 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090324-1
++ Revision: 722016
+- latex-doc-ptr
+- texlive-latex-doc-ptr
+- texlive-latex-doc-ptr
+- texlive-latex-doc-ptr
+- texlive-latex-doc-ptr
+
