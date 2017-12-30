@@ -5,8 +5,8 @@
 # catalog-license pd
 # catalog-version 2009-03-24
 Name:		texlive-latex-doc-ptr
-Version:	20090324
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	A direction-finder for LaTeX documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex-doc-ptr
