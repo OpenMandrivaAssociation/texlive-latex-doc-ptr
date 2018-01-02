@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan /info/latex-doc-ptr
-# catalog-date 2009-06-03 15:14:30 +0200
-# catalog-license pd
-# catalog-version 2009-03-24
 Name:		texlive-latex-doc-ptr
 Version:	20170414
 Release:	1
@@ -26,11 +20,7 @@ distribution.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/latex/latex-doc-ptr/Makefile
-%doc %{_texmfdistdir}/doc/latex/latex-doc-ptr/README
-%doc %{_texmfdistdir}/doc/latex/latex-doc-ptr/latex-doc-ptr.pdf
-%doc %{_texmfdistdir}/doc/latex/latex-doc-ptr/latex-doc-ptr.sty
-%doc %{_texmfdistdir}/doc/latex/latex-doc-ptr/latex-doc-ptr.tex
+%doc %{_texmfdistdir}/doc/latex/latex-doc-ptr
 
 #-----------------------------------------------------------------------
 %prep
@@ -41,18 +31,3 @@ distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090324-2
-+ Revision: 753179
-- Rebuild to reduce used resources
-
-* Sun Nov 06 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090324-1
-+ Revision: 722016
-- latex-doc-ptr
-- texlive-latex-doc-ptr
-- texlive-latex-doc-ptr
-- texlive-latex-doc-ptr
-- texlive-latex-doc-ptr
-
