@@ -1,12 +1,12 @@
 Name:		texlive-latex-doc-ptr
-Version:	20190228
+Version:	57311
 Release:	1
 Summary:	A direction-finder for LaTeX documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex-doc-ptr
 License:	PD
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-doc-ptr.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-doc-ptr.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-doc-ptr.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-doc-ptr.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,7 +24,7 @@ distribution.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
