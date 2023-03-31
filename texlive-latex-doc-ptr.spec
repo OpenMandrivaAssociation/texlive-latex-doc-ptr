@@ -1,6 +1,6 @@
 Name:		texlive-latex-doc-ptr
 Version:	57311
-Release:	1
+Release:	2
 Summary:	A direction-finder for LaTeX documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex-doc-ptr
