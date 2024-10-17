@@ -3,7 +3,7 @@ Version:	72417
 Release:	1
 Summary:	A direction-finder for LaTeX documentation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/latex-doc-ptr
+URL:		https://www.ctan.org/tex-archive/info/latex-doc-ptr
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-doc-ptr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-doc-ptr.doc.r%{version}.tar.xz
