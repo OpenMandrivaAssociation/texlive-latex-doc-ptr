@@ -1,5 +1,5 @@
 Name:		texlive-latex-doc-ptr
-Version:	72417
+Version:	77050
 Release:	1
 Summary:	A direction-finder for LaTeX documentation
 Group:		Publishing
